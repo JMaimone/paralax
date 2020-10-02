@@ -7,7 +7,7 @@ function preload() {
     lata = loadImage('Rubros/lata.jpg');
     juegos = loadImage('Rubros/juegos y juguetes.jpg')
 }
-
+//
 class Elemento {
     constructor(x, y, img) {
         this.x = parseInt(x);
