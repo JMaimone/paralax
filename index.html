@@ -3,16 +3,32 @@
 
 <head>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <!-- Paralax-->
+    <script src="js/class/elemento.js"></script>
+    <script src="js/paralax.js"></script>
+    <!-- Fin paralax-->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rubros</title>
+    <style>* {padding: 0; margin: 0;}</style>
 </head>
 
 <body>
-    <h2>Texto</h2>
-    <script src="paralax.js">
-        </script>
+    <!-- SONIDO
+    -->
+    <script src="js/howler.js"></script>
+<script>
+    //SetUp
+    var sound = new Howl({
+      src: ['sonido/gente_long.mp3'],
+      loop: true,
+    });
+    //Inicio
+    //sound.play();
+</script>
+<!-- Fin Sonido-->
+
 </body>
 
 </html>
